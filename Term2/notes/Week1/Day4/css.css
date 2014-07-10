@@ -1,0 +1,29 @@
+/*
+ *
+ *
+ *
+ * selector { declaration}
+ * selectors can be #ids, .classes, or tags
+ * 
+ * selector {
+ *    property1: value2;
+ *    property2: value2;
+ *    }
+ * selector1, selector2, selector3 {
+ *    property1: value2;
+ *    property2: value2;
+ *    }
+ *
+ * for colors hex, some color names OR rgb
+ *          color:yellow;
+ *          color:#EFEFEF;
+ *          color: rgb(255,255,255);
+ */
+
+p {
+	font-family: Arial; /* sets the font of p tags to be Arial*/
+}
+
+h1, h2, h3 {
+	color: yellow; /* sets the color of all h1, h2 and h3 tags as yellow */
+}
