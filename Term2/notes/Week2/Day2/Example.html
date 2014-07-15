@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<script src="http://code.jquery.com/jquery-1.9.1.js" type="text/javascript"></script>
+<script>
+	$(document).ready(function () {
+		$("h1").click(function() {$("h1").hide()});
+	    $(".myClass").click(function() {$(".myClass").slideUp()});
+	    $("#myID").click(function() {$("#myID").fadeOut()});
+	});
+</script>
+
+	<body>
+		<h1 id="heading"> This is a heading that is hidden </h1>
+		<p class="myClass"> This slides </p>
+	    <p id="myID"> This fades out </p>
+    </body>
+</html>
