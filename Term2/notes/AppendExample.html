@@ -1,0 +1,23 @@
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+<script>
+	$(document).ready(function(){
+	var posts = new Array();
+	posts.push("derp");
+	posts.push("herp");
+	posts.push("hurr");
+	posts.push("horse");
+
+	for (var x = 0; x < posts.length ; x++) {
+		$("#forumPosts").append("<p>"+posts[x]+"</p>");
+	
+	}
+});
+</script>
+<!Doctype html>
+<html>
+	<body>
+		<div id="forumPosts"></div>
+		<input type="submit" value="Post"/>
+	</body>
+<html>
